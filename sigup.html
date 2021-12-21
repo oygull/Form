@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="logo">
+    <a href="#"><img src="images/logo.svg" alt="logo"></a>
+  </div>
+  <div class="container">
+    <div class="form-box">
+      <div class="first-part row">
+        <p class="heading">Welcome to <span> LOREM</span></p>
+        <div class="account">
+          <p class="account-text">Have an Account?</p>
+          <a class="sign-up" href="index.html">Sign In</a>
+        </div>
+      </div>
+      <h2 class="main-heading">Sign Up</h2>
+      <form class="sign-in-form">
+        <label class="label" for="user"> Enter your username or email address
+          <input name="username" type="text" id="user" class="input" placeholder="Username or email address" required>
+        </label>
+        <div class="form-div row" >
+          <label class="label" for="name"> User name
+            <input name="name" type="text" id="name" class="input-short" placeholder="User name" required>
+          </label>
+          <label class="label" for="name"> Contact Number
+            <input name="number" type="number" id="number" class="input-short" placeholder="Contact Number" required>
+          </label>
+        </div>
+        <label class="abel" for="password"> Enter your Password
+          <input name="password" type="password" id="password" class="input last" placeholder="Password" required>
+        </label> 
+        <button type="submit" class="submit-btn"> Sign up</button>
+      </form>
+    </div>
+  </div> 
+</body>
+</html>

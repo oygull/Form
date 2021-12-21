@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="logo">
+    <a href="#"><img src="images/logo.svg" alt="logo"></a>
+  </div>
+  <div class="container">
+    <div class="form-box">
+      <div class="first-part row">
+        <p class="heading">Welcome to <span> LOREM</span></p>
+        <div class="account">
+          <p class="account-text">No Account?</p>
+          <a class="sign-up" href="sigup.html">Sign Up</a>
+        </div>
+      </div>
+      <h2 class="main-heading">Sign In</h2>
+      <div class="socials row">
+        <a href="#" class="google"><img src="images/google.svg" alt="google"> Sign in with Google</a>
+        <a href="#" class="facebook"><img src="images/facebook.svg" alt="facebook"></a>
+        <a href="#" class="apple"><img src="images/apple.svg" alt="apple"></a>
+      </div>
+      <form class="sign-in-form">
+        <label class="user-label" for="user"> Enter your username or email address
+          <input name="username" type="text" id="user" class="input" placeholder="Username or email address" required>
+        </label>
+        <label class="password-label" for="password"> Enter your Password
+          <input name="password" type="password" id="password" class="input" placeholder="Password" required>
+        </label> 
+        <a class="forgot" href="#">Forgot Password</a>
+        <button type="submit" class="submit-btn"> Sign in</button>
+      </form>
+    </div>
+  </div> 
+</body>
+</html>
